@@ -1,0 +1,45 @@
+.title{
+  text-align:center;
+}
+
+
+.container{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr; 
+  
+}
+
+/* For Large Devices (Desktop) */
+@media (min-width: 992px) {
+  /* Your styles for large devices here */
+  .container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; 
+    
+  }
+}
+
+/* For Medium Devices (Tablets) */
+@media (min-width: 768px) and (max-width: 991px) {
+  /* Your styles for medium devices here */
+  .container{
+    display: grid;
+    grid-template-columns: 1fr 1fr ; 
+    
+  }
+}
+
+/* For Small Devices (Mobile) */
+@media (max-width: 767px) {
+  /* Your styles for small devices here */
+  .container{
+    display: grid;
+    grid-template-columns: 1fr  ; 
+    
+  }
+}
+
+
+
+
+
